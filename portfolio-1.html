@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- ### META ### -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NAME | Portfolio</title>
+
+    <!-- ### CSS ### -->
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- VENDOR -->
+    <!-- MAIN CSS -->
+    <link href="css/portfolio-1.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- === NAVBAR === -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NAME</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#profile">Profile</a>
+                        <a class="nav-link" href="#project">Project</a>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#project" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Project
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#backend">Backend</a></li>
+                                <li><a class="dropdown-item" href="#frontend">Frontend</a></li>
+                                <li><a class="dropdown-item" href="#mobile">Mobile</a></li>
+                                <li><a class="dropdown-item" href="#fullstack">Fullstack</a></li>
+                            </ul>
+                        </li> -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- === HOME === -->
+    <section id="profile" class="profile">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>NAME</h2>
+                    <h3>Backend Developer</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center center-justified">
+                <div class=" col-md-8">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a, optio animi ipsa nobis odit,
+                        blanditiis aperiam, cupiditate esse corporis delectus laboriosam! Placeat eos ab, nostrum
+                        necessitatibus voluptatibus earum numquam.</p>
+                    <p><strong>LinkedIn: </strong><a href="#">link</a><br>
+                        <strong>Github: </strong><a href="#">link</a><br>
+                        <strong>HackerRank: </strong><a href="">link</a><br>
+                        <strong>Codeforces: </strong><a href="">link</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === INFO === -->
+    <section id="project" class="project">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Project</h2>
+                    <p>List of projects that have been worked on</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <div class="col-md-8 col-10 mb-5">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                            Project 1
+
+                        </div>
+                        <div class="card-body">
+                            <img src="img/no-image-icon.png" alt="no-image-icon" class="img-responsive">
+                        </div>
+                        <div class="card-footer">
+                            <div class="row justify-content-center">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quibusdam nesciunt ea
+                                    harum eligendi atque voluptate voluptatum dolorum corporis repudiandae veniam facere
+                                    earum vitae id, quidem excepturi exercitationem. Cumque, id.
+                                </p>
+                                <p>
+                                    <strong>Programing Language:</strong> Java<br>
+                                    <strong>Framework:</strong> Spring Boot<br>
+                                    <strong>Design Pattern:</strong> MVC<br>
+                                    <strong>Architecture:</strong> Microservice<br>
+                                    <strong>Message Broker:</strong> Kafka<br>
+                                    <strong>Cache:</strong> Redis<br>
+                                    <strong>Databases:</strong> MySQL<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-10 mb-5">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                            Project 2
+                        </div>
+                        <div class="card-body">
+                            <img src="img/no-image-icon.png" alt="no-image-icon" class="img-responsive">
+                        </div>
+                        <div class="card-footer">
+                            <div class="row justify-content-center">
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis hic
+                                    necessitatibus voluptatem eos adipisci corporis suscipit laboriosam quos nihil
+                                    molestias sed, sequi libero tenetur aliquam, ad dolor quod exercitationem.
+                                </p>
+                                <p>
+                                    <strong>Programing Language:</strong> Go Lang<br>
+                                    <strong>Framework:</strong> GIN<br>
+                                    <strong>Design Pattern:</strong> MVC<br>
+                                    <strong>Cache:</strong> Redis<br>
+                                    <strong>Databases:</strong> MySQL<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- === FOOTER AND CREDIT === -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="block">&copy; 2025 NAME</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- ### JS ### -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <script src="js/portfolio-1.js" type="text/javascript"></script>
+</body>
+
+</html>
